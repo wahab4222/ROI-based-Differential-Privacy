@@ -100,3 +100,8 @@ pip install pillow
   * ROI-DP optimizer with **region-of-interest aware** noise allocation.
 * **Regularisation:** Strong data augmentation + Mixup + label smoothing
   to improve robustness under noisy gradients.
+
+---
+
+## License
+This project is released under the MIT License.
