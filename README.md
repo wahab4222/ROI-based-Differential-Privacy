@@ -1,5 +1,7 @@
 [![DOI](https://zenodo.org/badge/1103325742.svg)](https://doi.org/10.5281/zenodo.18077682)
 
+This repository accompanies the manuscript ‘ROI-Guided Differential Privacy in Federated Learning for Enhanced Alzheimer’s Disease Classification’ submitted to The Visual Computer.
+
 ---
 
 # Federated ROI-DP Training on OASIS (EfficientNet-B2 / InceptionV3)
