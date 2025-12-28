@@ -131,7 +131,6 @@ python client.py \
 Use the following parameters when launching server.py and all clients:
 
 --model efficientnet_b2
-
 --img_size 224 (recommended)
 
 ---
