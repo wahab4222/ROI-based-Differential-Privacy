@@ -1,3 +1,7 @@
+[![DOI](https://zenodo.org/badge/1103325742.svg)](https://doi.org/10.5281/zenodo.18077682)
+
+---
+
 # Federated ROI-DP Training on OASIS (EfficientNet-B2 / InceptionV3)
 
 This repository contains the **server** and **client** code used to train
