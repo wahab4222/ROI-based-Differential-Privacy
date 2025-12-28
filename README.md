@@ -24,18 +24,6 @@ and **PyTorch** vision models (EfficientNet-B2 or InceptionV3).
 
 ## 2. Installation
 
-The code relies on the following external packages:
-
-- `numpy`
-- `torch`            – PyTorch
-- `torchvision`      – vision models and transforms
-- `flwr`             – Flower federated learning framework
-- `scikit-learn`     – classification metrics (precision/recall/F1)
-- `Pillow`           – image IO (PIL)
-
-Plus standard library modules (`argparse`, `os`, `typing`, `logging`, etc.)
-that are included with Python.
-
 ### 2.1. Creating a virtual environment (recommended)
 
 ```bash
