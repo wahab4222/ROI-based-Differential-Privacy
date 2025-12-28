@@ -91,40 +91,14 @@ Experiments were executed in a Jupyter-based environment. Example dataset paths 
 
 ### 5.1. Start the federated server
 
-python server.py \
-  --data_root /path/to/federated_dataset \
-  --server_address 0.0.0.0:8026 \
-  --model inception_v3 \
-  --num_rounds 50 \
-  --round_timeout 600 \
-  --eval_split val \
-  --img_size 299 \
-  --batch_size 16 \
-  --pretrained \
-  --fraction_fit 1.0 --fraction_evaluate 1.0 \
-  --min_fit_clients 1 --min_evaluate_clients 1 --min_available_clients 1 \
-  --use_cbam
+python server.py --data_root /path/to/federated_dataset --server_address 0.0.0.0:8026 --model inception_v3 --num_rounds 50 --round_timeout 600 --eval_split val --img_size 299 --batch_size 16 --pretrained --fraction_fit 1.0 --fraction_evaluate 1.0 --min_fit_clients 1 --min_evaluate_clients 1 --min_available_clients 1 --use_cbam
 
 ### 5.2. Start federated clients (example with 4 clients)
 
 Client 1:
-python client.py \
-  --server_address 127.0.0.1:8026 \
-  --data_root /path/to/federated_dataset \
-  --client_id 1 \
-  --model inception_v3 \
-  --img_size 299 \
-  --batch_size 32 \
-  --pretrained \
-  --local_epochs 5 \
-  --use_cbam \
-  --use_roi_dp \
-  --roi_dp_noise_multiplier 0.0008 \
-  --target_epsilon 3.8 \
-  --use_mixup \
-  --mixup_alpha 0.3
+python client.py --server_address 127.0.0.1:8026 --data_root /path/to/federated_dataset --client_id 1 --model inception_v3 --img_size 299 --batch_size 32 --pretrained --local_epochs 5 --use_cbam --use_roi_dp --roi_dp_noise_multiplier 0.0008 --target_epsilon 3.8 --use_mixup --mixup_alpha 0.3
 
-  Clients 2–4: repeat the above command with --client_id 2, --client_id 3, and --client_id 4.
+Clients 2–4: repeat the above command with --client_id 2, --client_id 3, and --client_id 4.
 
 ### Switching to EfficientNet-B2
 
