@@ -91,7 +91,7 @@ Experiments were executed in a Jupyter-based environment. Example dataset paths 
 
 ### 5.1. Start the federated server (copy/paste)
 
-    python server.py --data_root /path/to/federated_dataset --server_address 0.0.0.0:8026 --model inception_v3 --num_rounds 50 --round_timeout 600 --eval_split val --img_size 299 --batch_size 16 --pretrained --fraction_fit 1.0 --fraction_evaluate 1.0 --min_fit_clients 1 --min_evaluate_clients 1 --min_available_clients 1 --use_cbam
+    python server.py --data_root /path/to/federated_dataset --server_address 0.0.0.0:8026 --model inception_v3 --num_rounds 15 --round_timeout 600 --eval_split val --img_size 299 --batch_size 16 --pretrained --fraction_fit 1.0 --fraction_evaluate 1.0 --min_fit_clients 1 --min_evaluate_clients 1 --min_available_clients 1 --use_cbam
 
 ### 5.2. Start federated clients (example with 4 clients)
 
@@ -110,7 +110,7 @@ Use the following parameters when launching `server.py` and all clients:
 
 Server example:
 
-    python server.py --data_root /path/to/federated_dataset --server_address 0.0.0.0:8026 --model efficientnet_b2 --img_size 224 --num_rounds 50 --round_timeout 600 --eval_split val --batch_size 16 --pretrained --fraction_fit 1.0 --fraction_evaluate 1.0 --min_fit_clients 1 --min_evaluate_clients 1 --min_available_clients 1 --use_cbam
+    python server.py --data_root /path/to/federated_dataset --server_address 0.0.0.0:8026 --model efficientnet_b2 --img_size 224 --num_rounds 15 --round_timeout 600 --eval_split val --batch_size 16 --pretrained --fraction_fit 1.0 --fraction_evaluate 1.0 --min_fit_clients 1 --min_evaluate_clients 1 --min_available_clients 1 --use_cbam
 
 ---
 
