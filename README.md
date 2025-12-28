@@ -129,7 +129,9 @@ python client.py \
 ### Switching to EfficientNet-B2
 
 Use the following parameters when launching server.py and all clients:
+
 --model efficientnet_b2
+
 --img_size 224 (recommended)
 
 ---
