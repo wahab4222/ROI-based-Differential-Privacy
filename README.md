@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/1103325742.svg)](https://doi.org/10.5281/zenodo.18077683)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18079547.svg)](https://doi.org/10.5281/zenodo.18079547)
 
 This repository accompanies the manuscript ‘ROI-Guided Differential Privacy in Federated Learning for Enhanced Alzheimer’s Disease Classification’ submitted to The Visual Computer.
 
