@@ -1,8 +1,8 @@
-cff-version: 1.2.0
+cff-version: 1.0.0
 title: "ROI-Guided Differential Privacy in Federated Learning for Enhanced Alzheimer’s Disease Classification"
 authors:
   - family-names: Wahab
     given-names: Abdul
-doi: 10.5281/zenodo.18077683
+doi: 10.5281/zenodo.18079547
 license: MIT
 repository-code: https://github.com/wahab4222/ROI-based-Differential-Privacy
