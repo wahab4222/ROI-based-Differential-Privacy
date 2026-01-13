@@ -116,9 +116,55 @@ Server example:
 
 ## 6. Dataset Organization
 
-The data_root directory should contain a locally prepared OASIS MRI dataset organized by class labels. Each federated client must operate on a disjoint subset of subjects to prevent subject-level data leakage.
+This project expects a locally prepared dataset derived from the OASIS structural MRI data.
+Due to licensing and redistribution restrictions associated with medical imaging datasets,
+the data are not included in this repository.
 
-Due to licensing restrictions, the OASIS dataset is not redistributed. Users are expected to prepare client-specific splits prior to training.
+The dataset is organized under a common data_root/ directory. Training data are partitioned across multiple federated clients, where each client operates on a subject-disjoint subset of images. For federated training, class balancing was applied such that each client contains an equal number of images per class.
+
+Validation and test sets are maintained separately and reflect the natural class distribution of the dataset. All splits are constructed in a subject-disjoint manner to prevent subject-level data leakage across clients and evaluation sets.
+
+Directory structure is shown below:
+
+data_root/
+├── clients/
+│   ├── client_1/
+│   │   ├── Mild Dementia/            (85 images)
+│   │   ├── Moderate Dementia/        (85 images)
+│   │   ├── Non Demented/             (85 images)
+│   │   └── Very mild Dementia/       (85 images)
+│   ├── client_2/
+│   │   ├── Mild Dementia/            (85 images)
+│   │   ├── Moderate Dementia/        (85 images)
+│   │   ├── Non Demented/             (85 images)
+│   │   └── Very mild Dementia/       (85 images)
+│   ├── client_3/
+│   │   ├── Mild Dementia/            (85 images)
+│   │   ├── Moderate Dementia/        (85 images)
+│   │   ├── Non Demented/             (85 images)
+│   │   └── Very mild Dementia/       (85 images)
+│   └── client_4/
+│       ├── Mild Dementia/            (85 images)
+│       ├── Moderate Dementia/        (85 images)
+│       ├── Non Demented/             (85 images)
+│       └── Very mild Dementia/       (85 images)
+├── val/
+│   ├── Mild Dementia/                (71 images)
+│   ├── Moderate Dementia/            (56 images)
+│   ├── Non Demented/                 (68 images)
+│   └── Very mild Dementia/           (69 images)
+└── test/
+    ├── Mild Dementia/                (69 images)
+    ├── Moderate Dementia/            (50 images)
+    ├── Non Demented/                 (73 images)
+    └── Very mild Dementia/           (72 images)
+
+
+Class-wise total images:
+- Mild Dementia:        480
+- Moderate Dementia:    446
+- Non Demented:         481
+- Very mild Dementia:   481
 
 ---
 
