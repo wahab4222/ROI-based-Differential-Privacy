@@ -124,7 +124,7 @@ The dataset is organized under a common data_root/ directory. Training data are 
 
 Validation and test sets are maintained separately and reflect the natural class distribution of the dataset. All splits are constructed in a subject-disjoint manner to prevent subject-level data leakage across clients and evaluation sets.
 
-Directory structure is shown below:
+An example directory structure expected by the codebase is shown below.
 
 data_root/
 ├── clients/
@@ -161,10 +161,10 @@ data_root/
 
 
 Class-wise total images:
-- Mild Dementia:        480
-- Moderate Dementia:    446
-- Non Demented:         481
-- Very mild Dementia:   481
+Mild Dementia:        480
+Moderate Dementia:    446
+Non Demented:         481
+Very mild Dementia:   481
 
 ---
 
