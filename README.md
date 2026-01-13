@@ -159,14 +159,15 @@ data_root/
     ├── Moderate Dementia/            (50 images)
     ├── Non Demented/                 (73 images)
     └── Very mild Dementia/           (72 images)
+```
 
-
+```text
 Class-wise total images:
 Mild Dementia:        480
 Moderate Dementia:    446
 Non Demented:         481
 Very mild Dementia:   481
-```text
+```
 ---
 
 ## 7. License
