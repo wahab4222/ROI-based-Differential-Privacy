@@ -166,8 +166,8 @@ Mild Dementia:        480
 Moderate Dementia:    446
 Non Demented:         481
 Very mild Dementia:   481
-
+```text
 ---
 
-## License
+## 7. License
 This project is released under the MIT License.
