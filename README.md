@@ -126,6 +126,7 @@ Validation and test sets are maintained separately and reflect the natural class
 
 An example directory structure expected by the codebase is shown below.
 
+```text
 data_root/
 ├── clients/
 │   ├── client_1/
