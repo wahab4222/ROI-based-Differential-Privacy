@@ -30,6 +30,8 @@ ROI-based-Differential-Privacy/
 ├── requirements.txt
 ├── CITATION.cff
 ├── LICENSE
+├── figures/
+│   └── qualitative_oasis_inceptionv3_roi_layer_beta2p0.png
 ├── visualization/
 │   ├── generate_qualitative_visualization.py
 │   ├── experiment_summary.json
