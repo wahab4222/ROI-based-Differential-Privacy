@@ -1,0 +1,10 @@
+numpy>=1.23
+pandas>=1.5
+Pillow>=9.0
+scikit-learn>=1.2
+torch>=2.0
+torchvision>=0.15
+
+# Install the PyTorch build appropriate for your CPU/CUDA environment.
+# The revised unified script simulates federated orchestration internally
+# and does not require Flower (flwr).

@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite this Zenodo release and the associated manuscript."
+title: "ROI-Guided Differential Privacy in Federated Learning for Enhanced Alzheimer’s Disease Classification"
+type: software
+authors:
+  - family-names: "Wahab"
+    given-names: "Abdul"
+version: "JMI-revision-2026.08"
+date-released: "2026-08-25"
+doi: "10.5281/zenodo.22093150"
+repository-code: "https://github.com/wahab4222/ROI-based-Differential-Privacy"
+url: "https://doi.org/10.5281/zenodo.22093150"
+license: "MIT"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.22093150"
+    description: "Zenodo DOI for the revised JMI software release"
+keywords:
+  - federated learning
+  - Alzheimer's disease
+  - MRI
+  - medical imaging
+  - privacy
+  - membership inference
+  - gradient perturbation
+  - ROI-guided perturbation
+  - adaptive perturbation
+  - PyTorch
