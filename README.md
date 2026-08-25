@@ -240,7 +240,7 @@ OASIS and ADNI data are not redistributed in this repository. Users must obtain 
 
 If you use this software, cite:
 
-**Wahab, Abdul. ROI-Guided Privacy-Noise Allocation in Federated Learning for Alzheimer's MRI Classification. Zenodo. https://doi.org/10.5281/zenodo.22093150**
+**Wahab, Abdul. ROI-Guided Differential Privacy in Federated Learning for Enhanced Alzheimer’s Disease Classification. Zenodo. https://doi.org/10.5281/zenodo.22093150**
 
 See `CITATION.cff` for machine-readable metadata.
 
